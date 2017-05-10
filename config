@@ -1,0 +1,10 @@
+case "$1" in
+	--cflags)
+		echo "-Iinclude"
+		;;
+	--lflags)
+		echo "-lGL -lglfw -lGLEW"
+		;;
+	--libs)
+		;;
+esac
